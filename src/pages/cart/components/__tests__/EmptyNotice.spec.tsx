@@ -1,7 +1,7 @@
 import { screen } from '@testing-library/react';
 import { vi } from 'vitest';
 import render from '@/utils/test/render';
-import { ErrorPage } from '../ErrorPage';
+import { ErrorPage } from '@/pages/error/components/ErrorPage';
 import { useNavigate } from 'react-router-dom';
 
 // useNavigate 및 MemoryRouter 모킹
